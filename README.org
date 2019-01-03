@@ -1,0 +1,24 @@
+* Rigid bodies
+
+** Theory
+
+** Benchmark 1
+   As the first benchmark we will simulate the six cylinders falling under
+   gravity in a tank in cite:zhang-2009-simul-solid paper.
+
+
+*** TODO Governing equations
+    The equations governing the rigid bodies are Euler equations. They are
+
+    $$ m \frac{D\vec{u}}{Dt} = \vec{F}_{ext} + \vec{F}_{body} $$
+    $$ I \frac{D\vec{\omega}}{Dt} = \vec{T}_{ext} $$
+
+    Where $\vec{F}_{ext}$ composes of forces on the rigid body due to collision
+    with other bodies, walls and also due to interaction with fluid.
+
+    In the present case we will only deal with forces due to solid body interaction.
+
+
+*** TODO Details of simulation parameters
+
+*** TODO Implementation in Prestige
