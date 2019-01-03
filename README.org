@@ -10,8 +10,9 @@
 *** TODO Governing equations
     The equations governing the rigid bodies are Euler equations. They are
 
-    $$ m \frac{D\vec{u}}{Dt} = \vec{F}_{ext} + \vec{F}_{body} $$
-    $$ I \frac{D\vec{\omega}}{Dt} = \vec{T}_{ext} $$
+    $$m \frac{D\vec{u}}{Dt} = \vec{F}_{ext} + \vec{F}_{body}$$
+
+    $$I \frac{D\vec{\omega}}{Dt} = \vec{T}_{ext}$$
 
     Where $\vec{F}_{ext}$ composes of forces on the rigid body due to collision
     with other bodies, walls and also due to interaction with fluid.
